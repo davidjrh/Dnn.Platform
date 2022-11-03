@@ -5334,7 +5334,7 @@ __metadata:
     react: ^16.6.3
     react-click-outside: ^3.0.1
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     react-redux: ^5.1.1
     redux: ^4.0.1
     redux-devtools: 3.5.0
@@ -9985,7 +9985,7 @@ __metadata:
     raw-loader: 2.0.0
     react: ^16.6.3
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     style-loader: ^0.23.1
     url-loader: 1.1.2
     webpack: 4.31.0
@@ -10023,7 +10023,7 @@ __metadata:
     prop-types: ^15.6.2
     react: ^16.6.3
     react-dom: ^16.6.3
-    react-hot-loader: 4.3.5
+    react-hot-loader: 4.13.0
     style-loader: ^0.23.1
     webpack: 4.31.0
     webpack-cli: 3.1.2
@@ -11312,7 +11312,7 @@ __metadata:
     react-custom-scrollbars: 4.2.1
     react-dom: ^16.6.3
     react-height: 3.0.1
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     react-modal: 3.6.1
     react-motion: 0.5.2
     react-redux: 5.1.1
@@ -11442,7 +11442,7 @@ __metadata:
     raw-loader: 2.0.0
     react: ^16.6.3
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     style-loader: ^0.23.1
     url-loader: 1.1.2
     webpack: 4.31.0
@@ -12926,7 +12926,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"hoist-non-react-statics@npm:^2.1.1, hoist-non-react-statics@npm:^2.3.1, hoist-non-react-statics@npm:^2.5.0":
+"hoist-non-react-statics@npm:^2.1.1, hoist-non-react-statics@npm:^2.3.1":
   version: 2.5.5
   resolution: "hoist-non-react-statics@npm:2.5.5"
   checksum: ee2d05e5c7e1398ad84a15b0327f66bd78f38a8e0015e852f954b36434e32eb7e942d5357505020a3a1147f247b165bf1e69d72393e3accab67cafdafeb86230
@@ -15688,7 +15688,7 @@ fsevents@^1.2.7:
     less-loader: 5.0.0
     prop-types: ^15.6.2
     raw-loader: 2.0.0
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     react-modal: 3.6.1
     style-loader: ^0.23.1
     url-loader: 1.1.2
@@ -18279,7 +18279,7 @@ fsevents@^1.2.7:
     react-custom-scrollbars: 4.2.1
     react-day-picker: ^7.2.4
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     react-test-renderer: ^17.0.2
     react-widgets: 4.4.7
     string.prototype.startswith: 1.0.0
@@ -19453,7 +19453,7 @@ fsevents@^1.2.7:
     react: ^16.6.3
     react-click-outside: ^3.0.1
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     react-redux: 5.1.0
     react-test-renderer: ^17.0.2
     redux: 4.2.0
@@ -20122,23 +20122,30 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-hot-loader@npm:4.3.5":
-  version: 4.3.5
-  resolution: "react-hot-loader@npm:4.3.5"
+"react-hot-loader@npm:4.13.0":
+  version: 4.13.0
+  resolution: "react-hot-loader@npm:4.13.0"
   dependencies:
     fast-levenshtein: ^2.0.6
     global: ^4.3.0
-    hoist-non-react-statics: ^2.5.0
+    hoist-non-react-statics: ^3.3.0
+    loader-utils: ^1.1.0
     prop-types: ^15.6.1
     react-lifecycles-compat: ^3.0.4
-    shallowequal: ^1.0.2
+    shallowequal: ^1.1.0
+    source-map: ^0.7.3
   peerDependencies:
-    react: ^15.0.0 || ^16.0.0
-  checksum: 95733efd231486a12c45ca571b6866c98da1c577e62125fe1928f7d7d73d8790714108b79e72e52fe917fb341b6ef362ae16f7bb5026bd915319a4f3ec34f8b8
+    "@types/react": "^15.0.0 || ^16.0.0 || ^17.0.0 "
+    react: "^15.0.0 || ^16.0.0 || ^17.0.0 "
+    react-dom: "^15.0.0 || ^16.0.0 || ^17.0.0 "
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: effdbf4644ce912ae20ad94be62083970c74b26a59fe24ed0024cf73190a5b3edf59650cb693bdd7b70791df8ab8530de273d73b895c4831a91da8a76683e3a3
   languageName: node
   linkType: hard
 
-"react-hot-loader@npm:4.8.5, react-hot-loader@npm:^4.8.5":
+"react-hot-loader@npm:^4.8.5":
   version: 4.8.5
   resolution: "react-hot-loader@npm:4.8.5"
   dependencies:
@@ -21613,7 +21620,7 @@ resolve@^1.20.0:
     react: ^16.6.3
     react-click-outside: ^3.0.1
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     react-widgets: ^4.4.6
     style-loader: 0.23.1
     throttle-debounce: 5.0.0
@@ -21872,7 +21879,7 @@ resolve@^1.20.0:
     raw-loader: 2.0.0
     react: ^16.6.3
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     react-modal: 3.6.1
     react-redux: ^6.0.0
     redux: ^4.0.1
@@ -22013,7 +22020,7 @@ resolve@^1.20.0:
     raw-loader: 2.0.0
     react: ^16.6.3
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     react-modal: 3.6.1
     style-loader: ^0.23.1
     url-loader: 1.1.2
@@ -22101,7 +22108,7 @@ resolve@^1.20.0:
     react: ^16.6.3
     react-custom-scrollbars: ^4.1.1
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     style-loader: ^0.23.1
     url-loader: 1.1.2
     webpack: 4.31.0
@@ -22365,7 +22372,7 @@ resolve@^1.20.0:
     react: ^16.6.3
     react-click-outside: ^3.0.1
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     react-redux: ^6.0.0
     redux: ^4.0.1
     redux-devtools: 3.5.0
@@ -22417,7 +22424,7 @@ resolve@^1.20.0:
     react: ^16.6.3
     react-custom-scrollbars: 4.2.1
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     react-modal: 3.6.1
     react-redux: ^6.0.0
     redux: ^4.0.1
@@ -22459,7 +22466,7 @@ resolve@^1.20.0:
     raw-loader: 2.0.0
     react: ^16.6.3
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     style-loader: ^0.23.1
     url-loader: 1.1.2
     webpack: 4.31.0
@@ -23502,7 +23509,7 @@ resolve@^1.20.0:
     raw-loader: 2.0.0
     react: ^16.6.3
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     react-modal: 3.6.1
     style-loader: ^0.23.1
     url-loader: 1.1.2
@@ -23545,7 +23552,7 @@ resolve@^1.20.0:
     raw-loader: 2.0.0
     react: ^16.6.3
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     style-loader: ^0.23.1
     url-loader: 1.1.2
     webpack: 4.31.0
@@ -23708,7 +23715,7 @@ resolve@^1.20.0:
     raw-loader: 2.0.0
     react: ^16.6.3
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     style-loader: ^0.23.1
     url-loader: 1.1.2
     webpack: 4.31.0
@@ -24540,7 +24547,7 @@ resolve@^1.20.0:
     raw-loader: 2.0.0
     react: ^16.6.3
     react-dom: ^16.6.3
-    react-hot-loader: 4.8.5
+    react-hot-loader: 4.13.0
     react-redux: ^5.1.1
     react-widgets: ^4.4.6
     redux: ^4.0.1
