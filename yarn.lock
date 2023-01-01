@@ -4665,13 +4665,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/domhandler@npm:2.4.1":
-  version: 2.4.1
-  resolution: "@types/domhandler@npm:2.4.1"
-  checksum: b2d59124dad66cac48c72f7e69f02a8f67e3cf06ae71ceeb1a074f2f33f6dccc72b7e965328a8a38657fedacd8201e9fadb6c463b05ffcbbee888ec06ced1298
-  languageName: node
-  linkType: hard
-
 "@types/events@npm:*":
   version: 3.0.0
   resolution: "@types/events@npm:3.0.0"
@@ -9046,7 +9039,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"create-react-class@npm:^15.6, create-react-class@npm:^15.6.0, create-react-class@npm:^15.6.3":
+"create-react-class@npm:^15.6, create-react-class@npm:^15.6.3":
   version: 15.6.3
   resolution: "create-react-class@npm:15.6.3"
   dependencies:
@@ -9300,18 +9293,6 @@ __metadata:
   version: 2.1.3
   resolution: "css-what@npm:2.1.3"
   checksum: a52d56c591a7e1c37506d0d8c4fdef72537fb8eb4cb68711485997a88d76b5a3342b73a7c79176268f95b428596c447ad7fa3488224a6b8b532e2f1f2ee8545c
-  languageName: node
-  linkType: hard
-
-"css@npm:2.2.4":
-  version: 2.2.4
-  resolution: "css@npm:2.2.4"
-  dependencies:
-    inherits: ^2.0.3
-    source-map: ^0.6.1
-    source-map-resolve: ^0.5.2
-    urix: ^0.1.0
-  checksum: a35d483c5ccc04bcde3b1e7393d58ad3eee1dd6956df0f152de38e46a17c0ee193c30eec6b1e59831ad0e74599385732000e95987fcc9cb2b16c6d951bae49e1
   languageName: node
   linkType: hard
 
@@ -10154,6 +10135,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dom-serializer@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "dom-serializer@npm:2.0.0"
+  dependencies:
+    domelementtype: ^2.3.0
+    domhandler: ^5.0.2
+    entities: ^4.2.0
+  checksum: cd1810544fd8cdfbd51fa2c0c1128ec3a13ba92f14e61b7650b5de421b88205fd2e3f0cc6ace82f13334114addb90ed1c2f23074a51770a8e9c1273acbc7f3e6
+  languageName: node
+  linkType: hard
+
 "dom-walk@npm:^0.1.0":
   version: 0.1.1
   resolution: "dom-walk@npm:0.1.1"
@@ -10175,12 +10167,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domhandler@npm:2.3.0":
+"domelementtype@npm:^2.3.0":
   version: 2.3.0
-  resolution: "domhandler@npm:2.3.0"
+  resolution: "domelementtype@npm:2.3.0"
+  checksum: ee837a318ff702622f383409d1f5b25dd1024b692ef64d3096ff702e26339f8e345820f29a68bcdcea8cfee3531776b3382651232fbeae95612d6f0a75efb4f6
+  languageName: node
+  linkType: hard
+
+"domhandler@npm:5.0.3, domhandler@npm:^5.0.1, domhandler@npm:^5.0.2":
+  version: 5.0.3
+  resolution: "domhandler@npm:5.0.3"
   dependencies:
-    domelementtype: 1
-  checksum: 721ca27a3b28d1c710697356ba0ecbcc64fe3f0bd61a30eae04a02e6bd7720c7f0e40b9d59938db024a170fedf9b9ebe0c9ba603579b512d87ad4c410d851a94
+    domelementtype: ^2.3.0
+  checksum: 0f58f4a6af63e6f3a4320aa446d28b5790a009018707bce2859dcb1d21144c7876482b5188395a188dfa974238c019e0a1e610d2fc269a12b2c192ea2b0b131c
   languageName: node
   linkType: hard
 
@@ -10210,6 +10209,17 @@ __metadata:
     dom-serializer: 0
     domelementtype: 1
   checksum: f60a725b1f73c1ae82f4894b691601ecc6ecb68320d87923ac3633137627c7865725af813ae5d188ad3954283853bcf46779eb50304ec5d5354044569fcefd2b
+  languageName: node
+  linkType: hard
+
+"domutils@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "domutils@npm:3.0.1"
+  dependencies:
+    dom-serializer: ^2.0.0
+    domelementtype: ^2.3.0
+    domhandler: ^5.0.1
+  checksum: 23aa7a840572d395220e173cb6263b0d028596e3950100520870a125af33ff819e6f609e1606d6f7d73bd9e7feb03bb404286e57a39063b5384c62b724d987b3
   languageName: node
   linkType: hard
 
@@ -10511,6 +10521,13 @@ __metadata:
   version: 1.1.2
   resolution: "entities@npm:1.1.2"
   checksum: d537b02799bdd4784ffd714d000597ed168727bddf4885da887c5a491d735739029a00794f1998abbf35f3f6aeda32ef5c15010dca1817d401903a501b6d3e05
+  languageName: node
+  linkType: hard
+
+"entities@npm:^4.2.0, entities@npm:^4.3.0":
+  version: 4.4.0
+  resolution: "entities@npm:4.4.0"
+  checksum: 84d250329f4b56b40fa93ed067b194db21e8815e4eb9b59f43a086f0ecd342814f6bc483de8a77da5d64e0f626033192b1b4f1792232a7ea6b970ebe0f3187c2
   languageName: node
   linkType: hard
 
@@ -13018,14 +13035,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"html-dom-parser@npm:0.2.1":
-  version: 0.2.1
-  resolution: "html-dom-parser@npm:0.2.1"
+"html-dom-parser@npm:3.1.2":
+  version: 3.1.2
+  resolution: "html-dom-parser@npm:3.1.2"
   dependencies:
-    "@types/domhandler": 2.4.1
-    domhandler: 2.3.0
-    htmlparser2: 3.9.1
-  checksum: 535566838aa348234c3178245dea9829875837cf49c6470355cf3af6a9221cc80cc249d13d488f92442a96aeda6a44a01dc3abd7a0a0f10afeb128b9b581aa90
+    domhandler: 5.0.3
+    htmlparser2: 8.0.1
+  checksum: 939a5cae0e604741bc787d6caf7f06e5fc7ca3629772b4c4080fdba815ba31c6ff49d067667d474aee3674620eb657749b54643e2f2429289b0205abfdb49edd
   languageName: node
   linkType: hard
 
@@ -13069,17 +13085,17 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"html-react-parser@npm:^0.7.0":
-  version: 0.7.0
-  resolution: "html-react-parser@npm:0.7.0"
+"html-react-parser@npm:^3.0.6":
+  version: 3.0.6
+  resolution: "html-react-parser@npm:3.0.6"
   dependencies:
-    "@types/domhandler": 2.4.1
-    html-dom-parser: 0.2.1
-    react-dom-core: 0.0.4
-    style-to-object: 0.2.2
+    domhandler: 5.0.3
+    html-dom-parser: 3.1.2
+    react-property: 2.0.0
+    style-to-js: 1.1.2
   peerDependencies:
-    react: ^0.14 || ^15 || ^16
-  checksum: 845823ccc21fa5e7a21fa4b6f4eb2436104d9678330b50c1719dade6d5762ad3e811d6d44dda904b51123bc047eeee817bd27b2851d9c619897031d86587d09e
+    react: 0.14 || 15 || 16 || 17 || 18
+  checksum: 9ec91ecd67e23debb344b7e33a70fe5cad445b6612a330ba604fba9d2f05c7e6d8008f8f7f6015da62911ee9f23905d9e41d2c78563bdfef166ea04bbf7fb02e
   languageName: node
   linkType: hard
 
@@ -13099,17 +13115,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"htmlparser2@npm:3.9.1":
-  version: 3.9.1
-  resolution: "htmlparser2@npm:3.9.1"
+"htmlparser2@npm:8.0.1":
+  version: 8.0.1
+  resolution: "htmlparser2@npm:8.0.1"
   dependencies:
-    domelementtype: ^1.3.0
-    domhandler: ^2.3.0
-    domutils: ^1.5.1
-    entities: ^1.1.1
-    inherits: ^2.0.1
-    readable-stream: ^2.0.2
-  checksum: f57265a51f27624aca6d2a5b04f4f6a0fb9852da9902600a21a6009e76f9a1db2f32748be10bb8c8509c4b65756dcfccef62c8f8e43ee59b994e4a3f6e5fd35c
+    domelementtype: ^2.3.0
+    domhandler: ^5.0.2
+    domutils: ^3.0.1
+    entities: ^4.3.0
+  checksum: 06d5c71e8313597722bc429ae2a7a8333d77bd3ab07ccb916628384b37332027b047f8619448d8f4a3312b6609c6ea3302a4e77435d859e9e686999e6699ca39
   languageName: node
   linkType: hard
 
@@ -13564,6 +13578,13 @@ fsevents@^1.2.7:
     validate-npm-package-license: ^3.0.4
     validate-npm-package-name: ^4.0.0
   checksum: e027f60e4a1564809eee790d5a842341c784888fd7c7ace5f9a34ea76224c0adb6f3ab3bf205cf1c9c877a6e1a76c68b00847a984139f60813125d7b42a23a13
+  languageName: node
+  linkType: hard
+
+"inline-style-parser@npm:0.1.1":
+  version: 0.1.1
+  resolution: "inline-style-parser@npm:0.1.1"
+  checksum: 5d545056a3e1f2bf864c928a886a0e1656a3517127d36917b973de581bd54adc91b4bf1febcb0da054f204b4934763f1a4e09308b4d55002327cf1d48ac5d966
   languageName: node
   linkType: hard
 
@@ -19439,7 +19460,7 @@ fsevents@^1.2.7:
     fbjs: "*"
     fetch-mock: ^7.2.5
     file-loader: 3.0.1
-    html-react-parser: ^0.7.0
+    html-react-parser: ^3.0.6
     i18n-webpack-plugin: 1.0.0
     jest: ^28.1.2
     jwt-decode: 2.2.0
@@ -20028,15 +20049,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-dom-core@npm:0.0.4":
-  version: 0.0.4
-  resolution: "react-dom-core@npm:0.0.4"
-  dependencies:
-    react: 15
-  checksum: 7ab3159c88e0164e7be7aa45d1c0ad487780c40027e6c5052611800e1e98ceb2a252aff3f0d284d4b7e5010897ffca1be88b077f87d69c7b231dec7536a38480
-  languageName: node
-  linkType: hard
-
 "react-dom@npm:^16.4.2, react-dom@npm:^16.6.3, react-dom@npm:^16.8.1":
   version: 16.13.0
   resolution: "react-dom@npm:16.13.0"
@@ -20336,6 +20348,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"react-property@npm:2.0.0":
+  version: 2.0.0
+  resolution: "react-property@npm:2.0.0"
+  checksum: 8a444df30ef0937689c7968dae2501a0ca523777169f450e1f7ef5beeb855d6509bd058bf612f6ed8f459aa35468335d356e50264492e1938586e59fdb988262
+  languageName: node
+  linkType: hard
+
 "react-pure-render@npm:^1.0.2":
   version: 1.0.2
   resolution: "react-pure-render@npm:1.0.2"
@@ -20630,19 +20649,6 @@ fsevents@^1.2.7:
     react: ">=0.14.0"
     react-dom: ">=0.14.0"
   checksum: c5cacc95b5656f4b4b23d939e06795d8dcd3ba5bbdf59c0c626d9a7b2ccf13a74109b57d2928ece708520675b2479bc8a1c791a803e0539c9bbbaac24cce61ef
-  languageName: node
-  linkType: hard
-
-"react@npm:15":
-  version: 15.6.2
-  resolution: "react@npm:15.6.2"
-  dependencies:
-    create-react-class: ^15.6.0
-    fbjs: ^0.8.9
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.0
-    prop-types: ^15.5.10
-  checksum: dafba26025937f009465164ce892f4fad1c135f4797213bdd8d346a61e2c4b44c9b5c806716d33828d69eff54b2ec0efd77e849f97024b44691b0bf66dc7e2dc
   languageName: node
   linkType: hard
 
@@ -22645,7 +22651,7 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"source-map-resolve@npm:^0.5.0, source-map-resolve@npm:^0.5.2":
+"source-map-resolve@npm:^0.5.0":
   version: 0.5.2
   resolution: "source-map-resolve@npm:0.5.2"
   dependencies:
@@ -23252,12 +23258,21 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"style-to-object@npm:0.2.2":
-  version: 0.2.2
-  resolution: "style-to-object@npm:0.2.2"
+"style-to-js@npm:1.1.2":
+  version: 1.1.2
+  resolution: "style-to-js@npm:1.1.2"
   dependencies:
-    css: 2.2.4
-  checksum: 0ccb3b27eb54e60b1c57245d3a972e87d127dbcaf6f9853b9dc040704546ef7f476f01ee9754e3a5e3554d1fd57bbec00deba0521a835cae80a82e42ebc5c6c5
+    style-to-object: 0.4.0
+  checksum: 9e42b6a0e23c21282ed3d80ebc4194c3a5b5d42528873483532fe8623df91e28db4171715a96520be88f68bc98b1a9a18f65a03eb917617df492f096d174ad32
+  languageName: node
+  linkType: hard
+
+"style-to-object@npm:0.4.0":
+  version: 0.4.0
+  resolution: "style-to-object@npm:0.4.0"
+  dependencies:
+    inline-style-parser: 0.1.1
+  checksum: ad4c2cef5e80c4e981f6747b5c415453b11be5b70c925bc58a69373a7711f6c722a0b11fe9909599b46505329f9e8641c09e7ee5d270be1fe40d7ebdb5b72b81
   languageName: node
   linkType: hard
 
