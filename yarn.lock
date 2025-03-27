@@ -21041,9 +21041,9 @@ fsevents@^1.2.7:
   linkType: hard
 
 "redux-undo@npm:^1.0.0-beta9":
-  version: 1.0.0-beta9-9-7
-  resolution: "redux-undo@npm:1.0.0-beta9-9-7"
-  checksum: 231fa3dfde6ff7875d97ab7b70801c7dc0aabdcd6a899696defb5ffba78afb7818d7fa3c29fdfac0b3dc1f54e6f5d698e56776ff8136febe91740557baa213a7
+  version: 1.0.1
+  resolution: "redux-undo@npm:1.0.1"
+  checksum: 046b5fb49fafa1202a17899f65f150f3c61ac61dc84cd779afc9b09d05ce7ae049a899592c1e9b0d8b32d135b3b199b5cc2c7445b27d6660ed8bfb32f95cf96c
   languageName: node
   linkType: hard
 
