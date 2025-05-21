@@ -69,6 +69,6 @@
     "webpack-dev-server": "5.1.0"
   },
   "dependencies": {
-    "html-react-parser": "^0.7.1"
+    "html-react-parser": "^5.2.5"
   }
 }
